@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: aliceblue;
+    color: forestgreen;
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 20px;
+}
+body, container {
+    display: flex;
+    flex-direction: column;
+}
+menu {
+    order: -1;
+}
+@media (min-width: 768px) {
+    container {
+        flex-direction: row;
+        flex: 1;
+    }
+    main {
+        flex: 1;
+    }
+    menu {
+        flex: 0 0 12em;
+    }
+}

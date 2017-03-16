@@ -1,0 +1,21 @@
+/* font-family: "LatoBold"; */
+@font-face {
+	font-family: "LatoBold";
+	url("../vendor/fonts/Lato/LatoBold/LatoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "LatoLight"; */
+@font-face {
+	font-family: "LatoLight";
+	url("../vendor/fonts/Lato/LatoLight/LatoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "LatoRegular"; */
+@font-face {
+	font-family: "LatoRegular";
+	url("../vendor/fonts/Lato/LatoRegular/LatoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

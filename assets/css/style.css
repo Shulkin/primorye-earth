@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 html {
-    background-color: aliceblue;
-    color: forestgreen;
+    background-color: #f0ffff;
+    color: #e3e3e3;
     font-family: "LatoRegular", "Arial", sans-serif;
     font-size: 20px;
+}
+container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bay-anna.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 body, container {
     display: flex;
@@ -27,4 +34,45 @@ menu {
     menu {
         flex: 0 0 12em;
     }
+}
+menu {
+    display: flex;
+    flex-direction: column;
+}
+menu ul {
+    margin-top: 50px;
+}
+menu ul li {
+    margin-bottom: 100px;
+}
+menu ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    padding: 15px;
+    background-color: #99bf18;
+    min-width: 12em;
+    width: auto;
+    display: inline-block;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main h1, h4 {
+    text-align: center;
+}
+main h1 {
+    margin-bottom: 15px;
+}
+main h4 a {
+    text-decoration: none;
+    color: #e3e3e3;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #439a5a;
+}
+main h4 a:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 0, 0, 0.3));
 }
